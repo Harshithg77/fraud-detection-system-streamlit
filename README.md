@@ -195,28 +195,34 @@ The system automatically detects fraud patterns using:
 ## 🌟 Screenshots
 
 ### 📊 Main Dashboard
+
 ![Main Dashboard](screenshots/main-dashboard.png)
-*Real-time fraud detection dashboard with transaction monitoring, risk scores, and alert management*
+_Real-time fraud detection dashboard with transaction monitoring, risk scores, and alert management_
 
 ### 📈 Analytics & Insights
+
 ![Analytics Dashboard](screenshots/analytics-dashboard.png)
-*Advanced analytics with fraud patterns, geographical analysis, and performance metrics*
+_Advanced analytics with fraud patterns, geographical analysis, and performance metrics_
 
 ### 🔍 Transaction Details
+
 ![Transaction Analysis](screenshots/transaction-details.png)
-*Detailed transaction analysis with feature breakdown and ML model explanations*
+_Detailed transaction analysis with feature breakdown and ML model explanations_
 
 ### 🌐 Graph Network Analysis
+
 ![Graph Analysis](screenshots/graph-analysis.png)
-*Interactive graph visualization showing fraud rings and suspicious relationship patterns*
+_Interactive graph visualization showing fraud rings and suspicious relationship patterns_
 
 ### ⚙️ Model Performance
+
 ![Model Performance](screenshots/model-performance.png)
-*ML model performance metrics, accuracy trends, and ensemble model insights*
+_ML model performance metrics, accuracy trends, and ensemble model insights_
 
 ### 🚨 Real-time Alerts
+
 ![Real-time Alerts](screenshots/real-time-alerts.png)
-*Live fraud alerts with risk assessment and automated response recommendations*
+_Live fraud alerts with risk assessment and automated response recommendations_
 
 ## 🤝 Contributing
 
@@ -287,6 +293,7 @@ pip install tqdm numpy pandas
 ```
 
 **Note**: The data generation script has been updated to fix:
+
 - NumPy array compatibility issues with `numpy.random.choice()`
 - Timedelta type conversion errors for Python 3.9+
 - Improved synthetic data quality and distribution
@@ -333,14 +340,14 @@ fraud-detection-system-streamlit/
 
 ## 💻 Application Access
 
-| Service               | URL                   | Description                    |
-| --------------------- | --------------------- | ------------------------------ |
-| **FastAPI Backend**   | http://localhost:8080 | REST API endpoints             |
-| **API Documentation** | http://localhost:8080/docs | Interactive API docs       |
-| **Streamlit Frontend** | http://localhost:8501 | Interactive dashboard |
-| **PostgreSQL**        | localhost:5432        | Main database                  |
-| **Redis Cache**       | localhost:6379        | Caching layer                  |
-| **Neo4j Graph**       | localhost:7687        | Graph database                 |
+| Service                | URL                        | Description           |
+| ---------------------- | -------------------------- | --------------------- |
+| **FastAPI Backend**    | http://localhost:8080      | REST API endpoints    |
+| **API Documentation**  | http://localhost:8080/docs | Interactive API docs  |
+| **Streamlit Frontend** | http://localhost:8501      | Interactive dashboard |
+| **PostgreSQL**         | localhost:5432             | Main database         |
+| **Redis Cache**        | localhost:6379             | Caching layer         |
+| **Neo4j Graph**        | localhost:7687             | Graph database        |
 
 ## 🎯 Core Functionality
 
@@ -388,7 +395,7 @@ fraud-detection-system-streamlit/
 
 ### Core Technologies
 
-- **Backend**: FastAPI 0.116+ 
+- **Backend**: FastAPI 0.116+
 - **Frontend**: Streamlit (interactive dashboard)
 - **Database**: PostgreSQL 15+, Neo4j, TimescaleDB
 - **Cache**: Redis 7+
@@ -468,6 +475,7 @@ tx_002,user_002,1500.00,merchant_gambling,gambling,2024-01-15T02:15:30Z,EUR
 Our enterprise-grade CI/CD pipeline includes:
 
 #### 🔍 **Continuous Integration** (`.github/workflows/ci.yml`)
+
 - **Code Quality**: Black, isort, Flake8, MyPy type checking
 - **Security Scanning**: Bandit, Safety, CodeQL analysis
 - **Testing Suite**: Unit, integration, frontend tests with pytest
@@ -475,6 +483,7 @@ Our enterprise-grade CI/CD pipeline includes:
 - **Performance**: Load testing and benchmarking
 
 #### 🚀 **Continuous Deployment** (`.github/workflows/cd.yml`)
+
 - **Multi-Environment**: Staging and production deployments
 - **Container Registry**: GitHub Container Registry integration
 - **Security**: Image scanning before deployment
@@ -482,6 +491,7 @@ Our enterprise-grade CI/CD pipeline includes:
 - **Cleanup**: Automated cleanup of old images
 
 #### 🪝 **Pre-commit Hooks** (`.pre-commit-config.yaml`)
+
 - **Code Formatting**: Black, isort automatic formatting
 - **Linting**: Flake8, MyPy, Bandit security checks
 - **File Validation**: YAML, JSON, XML syntax checking
@@ -566,13 +576,13 @@ pip install tqdm numpy pandas     # Required for data scripts
 
 ### Benchmarks
 
-| Metric            | Performance                      |
-| ----------------- | -------------------------------- |
-| API Response Time | <50ms for single transaction     |
-| Batch Processing  | 1M+ transactions in ~30 seconds  |
+| Metric            | Performance                        |
+| ----------------- | ---------------------------------- |
+| API Response Time | <50ms for single transaction       |
+| Batch Processing  | 1M+ transactions in ~30 seconds    |
 | Concurrent Users  | 1000+ (with proper infrastructure) |
-| Memory Usage      | <1GB for 5M transactions         |
-| Database Queries  | <10ms with proper indexing       |
+| Memory Usage      | <1GB for 5M transactions           |
+| Database Queries  | <10ms with proper indexing         |
 
 ## 🆘 Troubleshooting
 
@@ -689,3 +699,4 @@ MIT License - See LICENSE file for details.
 ---
 
 🚨 **Enterprise FastAPI + Streamlit Architecture** - Production-ready fraud detection system with advanced ML capabilities!
+By Team Eklayvya
